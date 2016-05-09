@@ -10,6 +10,7 @@
     triggers:
       - pollscm: 'H/5 * * * *'
     builders:
+    - maven-target:
         maven-version: Maven3
         pom: parent/pom.xml
         goals: clean install
