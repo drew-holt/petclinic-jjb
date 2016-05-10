@@ -1,7 +1,7 @@
 - job:
     name: petclinic-jjb
     description: 'Do not edit this job through the web!'
-    project-type: freestyle
+    project-type: maven
     block-downstream: false
     scm:
     - git:
